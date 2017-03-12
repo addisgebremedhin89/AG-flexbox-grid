@@ -1,0 +1,37 @@
+html,
+body {
+  height: 100%;
+}
+
+body {
+  display: flex;
+}
+
+.div-1,
+.div-2 {
+  border: 1px black solid;
+  background-color: red;
+}
+
+.div-1 {
+  width: 100%;
+}
+
+.div-2 {
+  width: 100%;
+}
+
+
+
+@media screen and (max-width: 876px) {
+ 
+body {
+  flex-wrap: wrap;
+}
+  .div-1,
+  .div-2 {
+    width: max-width;
+    background-color: blue;
+  }
+  
+}
